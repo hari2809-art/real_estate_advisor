@@ -1,0 +1,22 @@
+# MLflow / experiments
+mlruns/
+mlflow_logs/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# Data files (optional - keep only if you don't want large datasets)
+*.csv
+
+# ML models (DO NOT push)
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
